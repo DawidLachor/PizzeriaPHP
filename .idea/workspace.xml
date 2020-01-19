@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35273a26-62d7-4a2d-b83d-c0427b5e9229" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1VtzJxfejZpHrH08pkSFk9kEZqC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skorp\Desktop\baza\ProjektKoncowy\HTML" />
+      <recent name="C:\Users\skorp\Desktop\baza\ProjektKoncowy\HTML\php" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35273a26-62d7-4a2d-b83d-c0427b5e9229" name="Default Changelist" comment="" />
+      <created>1578087110639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578087110639</updated>
+      <workItem from="1578087111807" duration="1541000" />
+      <workItem from="1578130891204" duration="4098000" />
+      <workItem from="1578243078484" duration="2101000" />
+      <workItem from="1578245288529" duration="17000" />
+      <workItem from="1578260239720" duration="9741000" />
+      <workItem from="1578306600089" duration="15011000" />
+      <workItem from="1578351703014" duration="515000" />
+      <workItem from="1578403689608" duration="6650000" />
+      <workItem from="1578424670538" duration="12963000" />
+      <workItem from="1578478056130" duration="4564000" />
+      <workItem from="1578485359536" duration="2457000" />
+      <workItem from="1578496707017" duration="1211000" />
+      <workItem from="1578518587896" duration="733000" />
+      <workItem from="1578568004700" duration="31272000" />
+      <workItem from="1578656738073" duration="1844000" />
+      <workItem from="1578683201223" duration="10439000" />
+      <workItem from="1578741525907" duration="29933000" />
+      <workItem from="1578841653090" duration="1574000" />
+      <workItem from="1578846793671" duration="895000" />
+      <workItem from="1578868432149" duration="973000" />
+      <workItem from="1579005963397" duration="1588000" />
+      <workItem from="1579007591444" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="199" key="#SQL_Dialects" timestamp="1578686789642">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="199" key="#SQL_Dialects/0.0.1920.1080@0.0.1920.1080" timestamp="1578686789642" />
+    <state x="414" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578686883478">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578686883478" />
+    <state x="600" y="308" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1578686740358">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="600" y="308" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578686740358" />
+    <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578317554746">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578317554746" />
+    <state x="718" y="412" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578570576066">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="718" y="412" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1578570576066" />
+    <state x="809" y="332" key="FileChooserDialogImpl" timestamp="1578843896800">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="809" y="332" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578843896800" />
+    <state x="799" y="391" key="NewPhpClassDialog" timestamp="1578313731084">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="799" y="391" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578313731084" />
+    <state x="863" y="500" key="NewPhpFileDialog" timestamp="1578684482358">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="863" y="500" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578684482358" />
+    <state x="461" y="183" key="SettingsEditor" timestamp="1578687452776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578687452776" />
+    <state x="1136" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1579446205706">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1136" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579446205706" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1578576506579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578576506579" />
+  </component>
+</project>
