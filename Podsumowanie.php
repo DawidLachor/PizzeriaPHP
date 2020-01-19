@@ -42,7 +42,7 @@ if (!isset($_SESSION)) {
             <h3>Sprawdz czy dodać pizze do standardowych</h3>
             <label for="dzien">Podaj za który dzien wyliczyc premie: </label>
             <input type="text" class="form-control"  name="dzien" placeholder="YYYY-MM-DD">
-            <button type="submit" name="addPizza" class="btn btn-warning">Wylicz premie</button>
+            <button type="submit" name="addPizza" class="btn btn-warning mb-3 mt-3">Dodsumuj dzień</button>
         </form>
         <form class="col-6" action="Podsumowanie.php" method="post">
             <h3>Wylicz premie dla kelnerów</h3>
@@ -50,7 +50,7 @@ if (!isset($_SESSION)) {
             <input type="number" class="form-control"  name="procent" placeholder="Procent">
             <label for="dzienPremi">Podaj za który dzien wyliczyc premie: </label>
             <input type="text" class="form-control"  name="dzienPremi" placeholder="YYYY-MM-DD">
-            <button type="submit" name="procentButton" class="btn btn-warning">Wylicz premie</button>
+            <button type="submit" name="procentButton" class="btn btn-warning mb-3 mt-3">Wylicz premie</button>
         </form>
         <?php include "premiaKelner.php"?>
         <?php include "pizzaStandard.php"?>
