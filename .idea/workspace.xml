@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35273a26-62d7-4a2d-b83d-c0427b5e9229" name="Default Changelist" comment="" />
+    <list default="true" id="35273a26-62d7-4a2d-b83d-c0427b5e9229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1VtzJxfejZpHrH08pkSFk9kEZqC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -103,11 +109,34 @@
       <workItem from="1578868432149" duration="973000" />
       <workItem from="1579005963397" duration="1588000" />
       <workItem from="1579007591444" duration="120000" />
+      <workItem from="1579446199464" duration="1455000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1579446272586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446272586</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add gitignore">
+      <created>1579446377492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446377492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#SQL_Dialects" timestamp="1578686789642">
@@ -130,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="718" y="412" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1578570576066" />
-    <state x="585" y="135" key="CommitChangelistDialog2" timestamp="1579446271857">
+    <state x="585" y="135" key="CommitChangelistDialog2" timestamp="1579446376965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="585" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579446271857" />
+    <state x="585" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579446376965" />
     <state x="809" y="332" key="FileChooserDialogImpl" timestamp="1578843896800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -150,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578687452776" />
-    <state x="552" y="274" key="Vcs.Push.Dialog.v2" timestamp="1579446302307">
+    <state x="552" y="274" key="Vcs.Push.Dialog.v2" timestamp="1579446385378">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579446302307" />
+    <state x="552" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579446385378" />
     <state x="1136" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1579446205706">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
