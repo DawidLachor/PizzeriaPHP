@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35273a26-62d7-4a2d-b83d-c0427b5e9229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zamowienia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Zamowienia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciasto.php" beforeDir="false" afterPath="$PROJECT_DIR$/ciasto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dodatki.php" beforeDir="false" afterPath="$PROJECT_DIR$/dodatki.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kupno.php" beforeDir="false" afterPath="$PROJECT_DIR$/kupno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizze.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizze.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozmiarPizzy.php" beforeDir="false" afterPath="$PROJECT_DIR$/rozmiarPizzy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
       <workItem from="1578868432149" duration="973000" />
       <workItem from="1579005963397" duration="1588000" />
       <workItem from="1579007591444" duration="120000" />
-      <workItem from="1579446199464" duration="1455000" />
+      <workItem from="1579446199464" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579446272586</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579446377492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modified index.php">
+      <created>1579447699640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579447699640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +146,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="modified index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#SQL_Dialects" timestamp="1578686789642">
@@ -159,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="718" y="412" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1578570576066" />
-    <state x="585" y="135" key="CommitChangelistDialog2" timestamp="1579446376965">
+    <state x="585" y="135" key="CommitChangelistDialog2" timestamp="1579447698981">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="585" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579446376965" />
+    <state x="585" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579447698981" />
     <state x="809" y="332" key="FileChooserDialogImpl" timestamp="1578843896800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -187,9 +198,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1136" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579446205706" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1578576506579">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1579453790212">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578576506579" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1579453790212" />
   </component>
 </project>

@@ -12,27 +12,33 @@ if ($polaczenie->connect_errno) {
     $polaczenie->query("SET CHARSET utf8");
 
     $zapytanie = $polaczenie->query(" select idPizza, NazwaPizzy from pizze where StandarPizza = 1;");
-
+    $pizza = 1;
     while ($row = mysqli_fetch_array($zapytanie, MYSQLI_ASSOC)) {
 
-        echo "<div class='col-6'>";
-        echo $row['idPizza'];
+        echo "<div class='col-6'><h5>";
+        echo $pizza;
         echo ". ";
-        echo $row['NazwaPizzy'];
-        echo "<div class='col-6'>";
-        $skladniki = $polaczenie->query("select dodatki.NazwaDodatku from dodatki inner join dod_pizz on dodatki.idDodatku = dod_pizz.idDodatku inner join pizze on pizze.idPizza = dod_pizz.idPizzy where dod_pizz.idPizzy =  " . $row['idPizza'] . " ;");
+        echo $row['NazwaPizzy']."</h5>";
+        echo "<p class='ml-4'>Składniki: </p>";
+        echo "<p class='ml-5'>";
+        $skladniki = $polaczenie->query("select dodatki.NazwaDodatku from dodatki inner join dod_pizz on dodatki.idDodatku = dod_pizz.idDodatku inner join pizze on pizze.idPizza = dod_pizz.idPizzy where dod_pizz.idPizzy =  ". $row['idPizza'] ." ;");
+        while ($skl = mysqli_fetch_array($skladniki, MYSQLI_ASSOC)){
 
-        while ($skl = mysqli_fetch_array($skladniki, MYSQLI_ASSOC)) {
             echo $skl["NazwaDodatku"];
             echo ", ";
         }
+        echo "</p>";
+        $skladniki->close();
+        $pizza = $pizza + 1;
+
+        echo "</div>";
         $skladniki->close();
 
         $nazwa = str_replace(' ', '', $row['NazwaPizzy']);
         echo '<form action="Zamowienia.php" method="post">';
         echo "</div>";
         echo "<div>";
-        echo '<button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#' . $nazwa . '">Zamów</button>';
+        echo '<button type="button" class="btn btn-primary ml-5"  data-toggle="modal" data-target="#' . $nazwa . '">Zamów</button>';
         echo "</div>";
         echo "</div>";
 
@@ -48,9 +54,9 @@ if ($polaczenie->connect_errno) {
                     <div class="modal-body">
                     <input type="text" name="rodzajPizzy" value="' . $row['NazwaPizzy'] . '" readonly><br/>
                     <input type="text" name="idPizzy" value="' . $row['idPizza'] . '" class="d-none" readonly><br/>
-                    <label>Grubość ciasta</label><br/>';
+                    <label class="font-weight-bold">Grubość ciasta</label><br/>';
         ciasta($polaczenie);
-        echo '<label>Rozmiar pizzy</label><br/>';
+        echo '<label class="font-weight-bold">Rozmiar pizzy</label><br/>';
         rozmiar($polaczenie);
         echo '<br/>
                         <button type="submit" name="zamow" class="btn btn-warning">Zamów</button>
@@ -65,6 +71,8 @@ if ($polaczenie->connect_errno) {
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>';
     }
     $zapytanie->close();
+
+    echo "<div class='col-6'><h5> ".$pizza.". ";
 }
 
 function ciasta($polaczenie)
@@ -72,8 +80,8 @@ function ciasta($polaczenie)
     $ciasto = $polaczenie->query("select RodzajCiasta from rodzajeciasta;");
 
     while ($row = mysqli_fetch_array($ciasto, MYSQLI_ASSOC)) {
-        echo "<p >";
-        echo $row["RodzajCiasta"];
+        echo "<p><span class='mr-2'>";
+        echo $row["RodzajCiasta"]."</span>";
         echo "<input type=\"radio\" name=\"ciasto\" value=\"" . $row["RodzajCiasta"] . "\"></p>";
     }
     $ciasto->close();
@@ -84,8 +92,8 @@ function rozmiar($polaczenie)
     $rozmiar = $polaczenie->query("select RozmiarPizzy from rozmiarypizzy;");
 
     while ($row = mysqli_fetch_array($rozmiar, MYSQLI_ASSOC)) {
-        echo "<p >";
-        echo $row["RozmiarPizzy"];
+        echo "<p ><span class='mr-2'>";
+        echo $row["RozmiarPizzy"]."</span>";
         echo "<input type=\"radio\" name=\"rozmiar\" value=\"" . $row["RozmiarPizzy"] . "\"></p>";
     }
     $rozmiar->close();

@@ -37,18 +37,18 @@ if (!isset($_SESSION)) {
     <img src="image/pizzeria_szczecin.png" class="img-fluid image" alt="Pizza">
 </header>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row">
-        <h1 class="col-12 text-center">ZAMÓW SWOJA PIZZE: </h1>
+        <h1 class="col-12 text-center mt-2">ZAMÓW SWOJA PIZZE: </h1>
         <div class="col-12">
             <h3 class="col-12 text-center">Wybierz swoja pizze: </h3>
 
             <?php include "kupno.php" ?>
-            <div class='col-6'>4. Własny wybór
-                <div ><p>Wybierz swoje dodatki</p></div>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#wlasna">Zamów</button>
+            Własny wybór</h5>
+                <div ><p class="ml-4">Wybierz swoje dodatki</p></div>
+                <button type="button" class="btn btn-primary ml-4" data-toggle="modal" data-target="#wlasna">Zamów</button>
             </div>
-            <form action="Zamowienia.php" method="post">';
+            <form action="Zamowienia.php" method="post">
                 <div id="wlasna" class="modal fade" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -60,11 +60,11 @@ if (!isset($_SESSION)) {
                             </div>
                             <div class="modal-body">
                                 <input type="text" name="rodzajPizzy" value="wlasna" readonly><br/>
-                                <label>Grubość ciasta</label><br/>
+                                <label class="font-weight-bold">Grubość ciasta</label><br/>
                                 <?php include "ciasto.php"?>
-                                <label>Rozmiar pizzy</label><br/>
+                                <label class="font-weight-bold">Rozmiar pizzy</label><br/>
                                 <?php include "rozmiarPizzy.php"?>
-                                <label>Dodatki: </label><br/>
+                                <label class="font-weight-bold">Dodatki: </label><br/>
                                 <?php include "dodatki.php"?>
                                 <button type="submit" name="wlasnaPizza" class="btn btn-warning">Zamów</button>
                             </div>
@@ -75,14 +75,14 @@ if (!isset($_SESSION)) {
 
 
 
-            <form action="Faktura.php" method="post">
+            <form action="Faktura.php" class="mt-3 m-3" method="post">
                 <label for="imie">Podaj imie: </label>
-                <input type="text" class="form-control" name="imie" placeholder="Podaj imie">
+                <input type="text" class="form-control" name="imie" placeholder="Podaj imie" required>
                 <label for="nazwisko">Podaj nazwisko: </label>
-                <input type="text" class="form-control" name="nazwisko" placeholder="Podaj nazwisko">
+                <input type="text" class="form-control" name="nazwisko" placeholder="Podaj nazwisko" required>
                 <label for="stolik">Podaj numer stolika: </label>
-                <input type="number" class="form-control" name="stolik" placeholder="Numer stolika">
-                <button type="submit" name="zakup" class="btn btn-warning">Zakup</button>
+                <input type="number" class="form-control" name="stolik" placeholder="Numer stolika" required>
+                <button type="submit" name="zakup" class="btn btn-warning mt-2">Zakup</button>
             </form>
             <?php include "pizze.php" ?>
 

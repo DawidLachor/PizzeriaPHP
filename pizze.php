@@ -91,24 +91,6 @@ if ($polaczenie->connect_errno) {
             $cenaKoncowa = $cenaKoncowa + $cenaciasta;
         }
 
-
-        if (isset($_SESSION["pizzaList"])) {
-            $item_array_id = array_column($_SESSION["pizzaList"]);
-            if (!in_array($item_array_id)) {
-                $count = count($_SESSION["pizzaList"]);
-                $item_array = array(
-                    'nazwa' => $nazwa,
-                    'rozmiar' => $rozmiar,
-                    'ciasto' => $ciasto,
-                    'cenaStandardRabat' => $cenaKoncowa
-
-                );
-                $_SESSION["pizzaList"][$count] = $item_array;
-            } else {
-
-            }
-
-        } else {
             $item_array = array(
                 'nazwa' => $nazwa,
                 'rozmiar' => $rozmiar,
@@ -116,7 +98,6 @@ if ($polaczenie->connect_errno) {
                 'cenaStandardRabat' => $cenaKoncowa
             );
             $_SESSION["pizzaList"][0] = $item_array;
-        }
 
 
         if (!empty($_SESSION["pizzaList"])) {
